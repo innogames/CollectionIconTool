@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b8090622c1468ba586b69dc58d3144, type: 3}
+  m_Name: Mushrooms
+  m_EditorClassIdentifier: 
+  MaterialExportPath: {fileID: 102900000, guid: 451191fac87c8465587c346f13e438e5,
+    type: 3}
+  LocaExportPath: {fileID: 102900000, guid: b9567572c4d5d4524bba02afc698e584, type: 3}
+  NamePattern: '{Cap}{Stem}'
+  ScaleVariation: 0.107
+  FlipVariation: 0.5
+  OutlineColor: {r: 1, g: 1, b: 1, a: 1}
+  Parts:
+  - PartName: Base
+    Variations:
+    - Name: 
+      Texture: {fileID: 2800000, guid: cf45fccff6a5948bb92cc28629441c13, type: 3}
+      BaseTintColor: {r: 1, g: 1, b: 1, a: 1}
+      PatternTintColor0: {r: 1, g: 1, b: 1, a: 0}
+      PatternTintColor1: {r: 1, g: 1, b: 1, a: 0}
+      hueVariation: 0
+  - PartName: Cap
+    Variations:
+    - Name: Globus
+      Texture: {fileID: 2800000, guid: 7e4434ad670744c118d2b7e45e37a047, type: 3}
+      BaseTintColor: {r: 0.8962264, g: 0.82763046, b: 0.6975347, a: 1}
+      PatternTintColor0: {r: 0.9339623, g: 0.8778925, b: 0.7797704, a: 1}
+      PatternTintColor1: {r: 1, g: 1, b: 1, a: 0}
+      hueVariation: 0.107
+    - Name: Tenebra
+      Texture: {fileID: 2800000, guid: 7e4434ad670744c118d2b7e45e37a047, type: 3}
+      BaseTintColor: {r: 0.6037736, g: 0.46279818, b: 0.3218227, a: 1}
+      PatternTintColor0: {r: 0.6886792, g: 0.56036395, b: 0.43204877, a: 1}
+      PatternTintColor1: {r: 1, g: 1, b: 1, a: 0}
+      hueVariation: 0.054
+    - Name: Byrrus
+      Texture: {fileID: 2800000, guid: 7e4434ad670744c118d2b7e45e37a047, type: 3}
+      BaseTintColor: {r: 0.7264151, g: 0.21580276, b: 0.0788092, a: 1}
+      PatternTintColor0: {r: 1, g: 0.9102849, b: 0.8820755, a: 1}
+      PatternTintColor1: {r: 0.9528302, g: 0.9359575, b: 0.86743504, a: 0}
+      hueVariation: 0.168
+    - Name: Noctu
+      Texture: {fileID: 2800000, guid: 7e4434ad670744c118d2b7e45e37a047, type: 3}
+      BaseTintColor: {r: 0.5566038, g: 0.44370773, b: 0.4999534, a: 1}
+      PatternTintColor0: {r: 0.6784314, g: 0.5803922, b: 0.6382817, a: 1}
+      PatternTintColor1: {r: 0.9528302, g: 0.9359575, b: 0.86743504, a: 0}
+      hueVariation: 0.208
+    - Name: Hat
+      Texture: {fileID: 2800000, guid: ddd3d15f8d6fb44408859f4f6917de39, type: 3}
+      BaseTintColor: {r: 0.9716981, g: 0.9479684, b: 0.66460484, a: 1}
+      PatternTintColor0: {r: 0.8113208, g: 0.79047227, b: 0.5319509, a: 1}
+      PatternTintColor1: {r: 1, g: 1, b: 1, a: 0}
+      hueVariation: 0.122
+    - Name: Pileus
+      Texture: {fileID: 2800000, guid: ddd3d15f8d6fb44408859f4f6917de39, type: 3}
+      BaseTintColor: {r: 0.8301887, g: 0.6902228, b: 0.29369885, a: 1}
+      PatternTintColor0: {r: 0.6698113, g: 0.5577302, b: 0.2432805, a: 1}
+      PatternTintColor1: {r: 1, g: 1, b: 1, a: 0}
+      hueVariation: 0.104
+    - Name: Cap
+      Texture: {fileID: 2800000, guid: ddd3d15f8d6fb44408859f4f6917de39, type: 3}
+      BaseTintColor: {r: 0.5849056, g: 0.48720497, b: 0.4662691, a: 1}
+      PatternTintColor0: {r: 1, g: 0.91045225, b: 0.8915094, a: 1}
+      PatternTintColor1: {r: 0.7924528, g: 0.6622034, b: 0.6167675, a: 0}
+      hueVariation: 0.326
+    - Name: Ovo
+      Texture: {fileID: 2800000, guid: 61c6696805a9e41f7b50f9d6ca528edc, type: 3}
+      BaseTintColor: {r: 0.9150943, g: 0.8682997, b: 0.6863207, a: 1}
+      PatternTintColor0: {r: 0.8207547, g: 0.79055715, b: 0.56910825, a: 1}
+      PatternTintColor1: {r: 1, g: 1, b: 1, a: 0}
+      hueVariation: 0.107
+    - Name: Ovum
+      Texture: {fileID: 2800000, guid: 61c6696805a9e41f7b50f9d6ca528edc, type: 3}
+      BaseTintColor: {r: 0.7735849, g: 0.60672987, b: 0.29556784, a: 1}
+      PatternTintColor0: {r: 0.6981132, g: 0.51734436, b: 0.18111429, a: 1}
+      PatternTintColor1: {r: 1, g: 1, b: 1, a: 0}
+      hueVariation: 0.057
+    - Name: Nidum
+      Texture: {fileID: 2800000, guid: 61c6696805a9e41f7b50f9d6ca528edc, type: 3}
+      BaseTintColor: {r: 0.7075472, g: 0.35483286, b: 0.103462085, a: 1}
+      PatternTintColor0: {r: 0.990566, g: 0.9374738, b: 0.70554465, a: 1}
+      PatternTintColor1: {r: 0.7264151, g: 0.6212258, b: 0.14733891, a: 0}
+      hueVariation: 0.075
+    - Name: Planus
+      Texture: {fileID: 2800000, guid: 56603fe4c7115ae48931e6dfe78e5425, type: 3}
+      BaseTintColor: {r: 0.9716981, g: 0.95307773, b: 0.6737718, a: 1}
+      PatternTintColor0: {r: 0.8490566, g: 0.8357901, b: 0.6367924, a: 1}
+      PatternTintColor1: {r: 1, g: 1, b: 1, a: 0}
+      hueVariation: 0.118
+    - Name: Longi
+      Texture: {fileID: 2800000, guid: 56603fe4c7115ae48931e6dfe78e5425, type: 3}
+      BaseTintColor: {r: 0.5943396, g: 0.50783545, b: 0.372864, a: 1}
+      PatternTintColor0: {r: 0.5471698, g: 0.3919935, b: 0.16260235, a: 1}
+      PatternTintColor1: {r: 1, g: 1, b: 1, a: 0}
+      hueVariation: 0.122
+    - Name: Flat
+      Texture: {fileID: 2800000, guid: 56603fe4c7115ae48931e6dfe78e5425, type: 3}
+      BaseTintColor: {r: 0.60648805, g: 0.68643945, b: 0.7264151, a: 1}
+      PatternTintColor0: {r: 1, g: 1, b: 1, a: 1}
+      PatternTintColor1: {r: 0.747953, g: 0.78980386, b: 0.8301887, a: 0}
+      hueVariation: 0.298
+    - Name: Spica
+      Texture: {fileID: 2800000, guid: 0d0651bbbadb74f8bba11384e5e1b86d, type: 3}
+      BaseTintColor: {r: 0.48717925, g: 0.5471698, b: 0.43618724, a: 1}
+      PatternTintColor0: {r: 0.5888156, g: 0.6886792, b: 0.5035155, a: 1}
+      PatternTintColor1: {r: 0.747953, g: 0.78980386, b: 0.8301887, a: 0}
+      hueVariation: 0.19
+    - Name: Dens
+      Texture: {fileID: 2800000, guid: 0d0651bbbadb74f8bba11384e5e1b86d, type: 3}
+      BaseTintColor: {r: 0.7262149, g: 0.6799573, b: 0.754717, a: 1}
+      PatternTintColor0: {r: 0.58181554, g: 0.5655927, b: 0.5849056, a: 1}
+      PatternTintColor1: {r: 0.747953, g: 0.78980386, b: 0.8301887, a: 0}
+      hueVariation: 0.269
+    - Name: Spiculum
+      Texture: {fileID: 2800000, guid: 0d0651bbbadb74f8bba11384e5e1b86d, type: 3}
+      BaseTintColor: {r: 0.5283019, g: 0.4277307, b: 0.31149876, a: 1}
+      PatternTintColor0: {r: 1, g: 0.9570102, b: 0.7216981, a: 1}
+      PatternTintColor1: {r: 0.747953, g: 0.78980386, b: 0.8301887, a: 0}
+      hueVariation: 0.147
+  - PartName: Stem
+    Variations:
+    - Name: genu
+      Texture: {fileID: 2800000, guid: da4ff073a21de4659a92f0a69791310b, type: 3}
+      BaseTintColor: {r: 0.8867924, g: 0.87090737, b: 0.73202205, a: 1}
+      PatternTintColor0: {r: 0.9528302, g: 0.93893814, b: 0.876424, a: 1}
+      PatternTintColor1: {r: 1, g: 0.030630242, b: 0, a: 0}
+      hueVariation: 0
+    - Name: corpus
+      Texture: {fileID: 2800000, guid: 74554ed4b175b3d45b1fd5a13a283bfc, type: 3}
+      BaseTintColor: {r: 0.9433962, g: 0.6661281, b: 0.4227483, a: 1}
+      PatternTintColor0: {r: 0.9622642, g: 0.81051713, b: 0.4493592, a: 1}
+      PatternTintColor1: {r: 0.7883872, g: 0.8, b: 0.16862746, a: 1}
+      hueVariation: 0.14
+    - Name: barrus
+      Texture: {fileID: 2800000, guid: 8aafbecc1f85f4c86896f236c481c101, type: 3}
+      BaseTintColor: {r: 0.9150943, g: 0.87020874, b: 0.6690548, a: 1}
+      PatternTintColor0: {r: 0.94851273, g: 0.9622642, b: 0.67630833, a: 1}
+      PatternTintColor1: {r: 0.49757046, g: 0.6320754, b: 0.30709326, a: 1}
+      hueVariation: 0.351
+    - Name: tubae
+      Texture: {fileID: 2800000, guid: 95e0b1235a5b748169b1577eab1c7605, type: 3}
+      BaseTintColor: {r: 0.3773585, g: 0.2723389, b: 0.28274626, a: 1}
+      PatternTintColor0: {r: 0.6226415, g: 0.41411534, b: 0.4219107, a: 1}
+      PatternTintColor1: {r: 0.9433962, g: 0.8118812, b: 0.5829477, a: 1}
+      hueVariation: 0.208
+  IgnoredVariations: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
